@@ -46,7 +46,7 @@ flappy bird bird,
 bird flappy bird,
 flappy bird game,
 flappybird,
- mobile game">
+mobile game">
     <title>Flappy Bird Game Online Play</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐦</text></svg>">
     <style>
@@ -65,6 +65,7 @@ flappybird,
             background: linear-gradient(135deg, #1e5799, #2989d8);
             color: #fff;
             padding: 20px;
+            flex-direction: column;
         }
 
         .game-container {
@@ -76,6 +77,7 @@ flappybird,
             padding: 20px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             position: relative;
+            margin-bottom: 20px;
         }
 
         .game-title {
@@ -184,6 +186,13 @@ flappybird,
             font-size: 20px;
         }
 
+        .ad-container {
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+
         @media (max-width: 600px) {
             .game-title {
                 font-size: 2rem;
@@ -239,6 +248,20 @@ flappybird,
         <div class="instructions">
             <p>Press SPACE or click/tap to make the bird fly. Avoid the pipes!</p>
         </div>
+    </div>
+
+    <!-- Banner Ad Container -->
+    <div class="ad-container">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '35abba4afc3c0da3232db9c980784049',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/35abba4afc3c0da3232db9c980784049/invoke.js"></script>
     </div>
 
     <!-- Audio elements -->
@@ -564,8 +587,5 @@ flappybird,
             });
         });
     </script>
-
-    <!-- Popunder Ads Code -->
-    <script type='text/javascript' src='//pl24250608.profitableratecpm.com/a2/fb/40/a2fb4001d32700cd8413d4ece63fef96.js'></script>
 </body>
 </html>
